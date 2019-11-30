@@ -16,18 +16,22 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1UKztnQMEeWKY6Kspuh4I84GxJe" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Projects\flask\training_templates\static\2" />
       <recent name="D:\Projects\flask\training_templates\static" />
+      <recent name="D:\Projects\flask\training_templates\templates" />
+      <recent name="D:\Projects\flask\training_templates\static\2" />
       <recent name="D:\Projects\flask\training_templates\templates\2" />
       <recent name="D:\Projects\flask\training_templates\templates\js" />
-      <recent name="D:\Projects\flask\training_templates\templates\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -69,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575120291965</updated>
-      <workItem from="1575120299955" duration="1944000" />
+      <workItem from="1575120299955" duration="2207000" />
     </task>
     <servers />
   </component>
