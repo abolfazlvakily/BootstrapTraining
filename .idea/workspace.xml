@@ -16,6 +16,7 @@
       <list>
         <option value="Flask Main" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -28,6 +29,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -78,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575120291965</updated>
       <workItem from="1575120299955" duration="5954000" />
-      <workItem from="1575205833844" duration="5826000" />
+      <workItem from="1575205833844" duration="7440000" />
     </task>
     <servers />
   </component>
