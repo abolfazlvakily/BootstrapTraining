@@ -20,21 +20,22 @@
 </head>
 <body>
 <div class="container">
-    <h1>عکس معمولی</h1>>
-    <img src="{{ url_for("static", filename="images/1.jpg") }}" alt="">
+    <div class="alert alert-success">عملیات شما با موفقیت انجام شد</div>
+    <div class="alert alert-warning">کاربر گرامی این خطا نیست اما بدا برای شما یا کسانی دست پا گیر می شود</div>
+    <div class="alert alert-info">کد اشتراک شما : 1234564 می باشد.</div>
+    <div class="alert alert-danger">Erorr</div>
     <br>
-    <h1>عکسی با بوردر ردیوس 6 پیکسلی</h1>
-    <img src="{{ url_for("static", filename="images/1.jpg") }}" alt="" class="img-rounded">
+    <h2>حالا می خوام امکان حذف هم داشته باشه</h2>
+    <div class="alert alert-success">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        saaaaaaaaaaalalalammm!!!
+    </div>
     <br>
-    <h1>عکس دایره ای</h1>
-    <p>توجه کن عکست باید مربعی باشه در غیر این صورت بیضی می کنه</p>
-    <img src="{{ url_for("static", filename="images/1.jpg") }}" alt="" class="img-circle">
-    <br>
-    <h1>عکس بوردر دار</h1>
-    <img src="{{ url_for("static", filename="images/1.jpg") }}" alt="" class="img-thumbnail">
-    <br>
-    <h1>هر عکسی توی کلاینت های مختلف به صورت ریسپانسیو در میاد</h1>
-    <img src="{{ url_for("static", filename="images/1.jpg") }}" alt="" class="img-responsive">
+    <p>faide in</p>
+    <div class="alert alert-success fade in">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        saaaaaaaaaaalalalammm!!!
+    </div>
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="{{ url_for("static",filename= "js/jquery.min.js") }}"></script>
