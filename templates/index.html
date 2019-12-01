@@ -20,10 +20,27 @@
 </head>
 <body>
 <div class="container">
-    <a href="#" class="btn btn-danger">
-        <i class="glyphicon glyphicon-phone"></i>
-        hello
-    </a>
+    <h1>سناریو : چه مقدار از پروژه ها انجام شده یا نشده؟</h1>
+    <div class="progress">
+        <div class="progress-bar" style="width: 80%"> 80% پروژه به طور کلی پیش رفته</div>
+    </div>
+    <br>
+    <div class="progress">
+        <div class="progress-bar progress-bar-success" style="width: 80%"> 80% پروژه باموفقیت پیش رفته</div>
+    </div>
+    <br>
+    <p>در صورتی که بخوام اکتیو باشه و خط خط چی؟</p>
+    <div class="progress">
+        <div class="progress-bar progress-bar-success progress-bar-striped active" style="width: 80%"> 80% پروژه باموفقیت پیش رفته</div>
+    </div>
+    <br>
+    <p>اگه بخوام توی یک خط باشن چی؟</p>
+    <div class="progress">
+        <div class="progress-bar progress-bar-success progress-bar-striped" style="width: 20%"> 20% پروژه باموفقیت پیش رفته</div>
+        <div class="progress-bar progress-bar-warning progress-bar-striped" style="width: 30%"> 30% پروژه باموفقیت پیش رفته</div>
+        <div class="progress-bar progress-bar-info progress-bar-striped" style="width: 40%"> 40% پروژه باموفقیت پیش رفته</div>
+        <div class="progress-bar progress-bar-danger progress-bar-striped" style="width: 10%"> 10% پروژه باموفقیت پیش رفته</div>
+    </div>
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="{{ url_for("static",filename= "js/jquery.min.js") }}"></script>
