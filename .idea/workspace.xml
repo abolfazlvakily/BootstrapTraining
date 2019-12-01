@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="71116c35-a51d-4746-9c06-f16850cdb03a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,9 +30,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\flask\training_templates\static" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\flask\training_templates\static" />
       <recent name="D:\Projects\flask\training_templates\templates" />
@@ -80,7 +85,8 @@
       <option name="presentableId" value="Default" />
       <updated>1575120291965</updated>
       <workItem from="1575120299955" duration="5954000" />
-      <workItem from="1575205833844" duration="10007000" />
+      <workItem from="1575205833844" duration="13494000" />
+      <workItem from="1575229101973" duration="1990000" />
     </task>
     <servers />
   </component>
