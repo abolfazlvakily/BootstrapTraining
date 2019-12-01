@@ -20,22 +20,35 @@
 </head>
 <body>
 <div class="container">
-    <div class="alert alert-success">عملیات شما با موفقیت انجام شد</div>
-    <div class="alert alert-warning">کاربر گرامی این خطا نیست اما بدا برای شما یا کسانی دست پا گیر می شود</div>
-    <div class="alert alert-info">کد اشتراک شما : 1234564 می باشد.</div>
-    <div class="alert alert-danger">Erorr</div>
+    <button class="btn btn-default">کلید معمولی</button>
+    <button class="btn btn-primary">ثبت</button>
+    <button class="btn btn-success">sucsess</button>
+    <button class="btn btn-info">info</button>
+    <button class="btn btn-warning">warning</button>
+    <button class="btn btn-danger">danger</button>
     <br>
-    <h2>حالا می خوام امکان حذف هم داشته باشه</h2>
-    <div class="alert alert-success">
-        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-        saaaaaaaaaaalalalammm!!!
-    </div>
+    <a href="#" class="btn btn-warning">a href</a>
     <br>
-    <p>faide in</p>
-    <div class="alert alert-success fade in">
-        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-        saaaaaaaaaaalalalammm!!!
-    </div>
+    <input type="submit" class="btn-info" value="my submit">
+    <br>
+    <input type="button" class="btn-info" value="my button">
+    <br>
+    <h1>حتی میشه سایز هاش هم تغییر داد البته طبق الگوی مشخص</h1>
+    <button class="btn btn-success btn-lg">sucsess lg</button>
+    <br>
+    <button class="btn btn-success btn-xs">sucsess xs</button>
+    <br>
+    <button class="btn btn-success btn-sm">sucsess sm</button>
+    <br>
+    <button class="btn btn-success btn-md">sucsess md</button>
+    <br>
+    <h3>کدومو بدوم؟</h3>
+    <button class="btn btn-success btn-xs btn-block">sucsess xs</button>
+    <br>
+    <h3>بررسی یه سناریو</h3>
+    <p class="bg-info">استپ با استپ</p>
+    <button class="btn btn-primary disabled">next</button>
+    <button class="btn btn-primary active">prev</button>
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="{{ url_for("static",filename= "js/jquery.min.js") }}"></script>
