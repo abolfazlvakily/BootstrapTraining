@@ -20,41 +20,87 @@
 </head>
 <body>
 <div class="container">
-    <div class="panel-group" id="cloud">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a href="#collapse1" data-toggle="collapse" data-parent="#cloud">Open/Close</a>
-                </h4>
-            </div>
-            <div id="collapse1" class="panel-collapse collapse in">
-                <div class="panel-body">panel-body</div>
-                <div class="panel-footer">panel-footer</div>
+    <form action="">
+        <div class="form-group">
+            <label for="email">Email : </label>
+            <input type="email" class="form-control" id="email">
+        </div>
+        <div class="form-group">
+            <label for="password">password : </label>
+            <input type="password" class="form-control" id="password">
+        </div>
+        <div class="checkbox">
+            <label for="">
+                <input type="checkbox">
+                remember me
+            </label>
+        </div>
+    </form>
+    <!---------------------------------------------------------------------->
+    <br>
+    <h1>Form2</h1>
+    <form action="" class="form-inline">
+        <div class="form-group">
+            <label for="email">Email : </label>
+            <input type="email" class="form-control" id="email">
+        </div>
+        <div class="form-group">
+            <label for="password">password : </label>
+            <input type="password" class="form-control" id="password">
+        </div>
+        <div class="checkbox">
+            <label for="">
+                <input type="checkbox">
+                remember me
+            </label>
+        </div>
+        <button type="submit" class="btn btn-success">send</button>
+    </form>
+    <!-------------------------------فرم را بزرگ تر می کنی-------------------------------->
+    <br>
+    <br>
+    <h1>Form3</h1>
+    <form action="" class="form-horizontal">
+        <div class="form-group">
+            <label for="email">Email : </label>
+            <input type="email" class="form-control" id="email">
+        </div>
+        <div class="form-group">
+            <label for="password">password : </label>
+            <input type="password" class="form-control" id="password">
+        </div>
+        <div class="checkbox">
+            <label for="">
+                <input type="checkbox">
+                remember me
+            </label>
+        </div>
+        <button type="submit" class="btn btn-success">send</button>
+    </form>
+    <!-----------------------------------می خوام فرم ها کنار هم باشند-------------------------------------------->
+    <br>
+    <br>
+    <h1>Form4</h1>
+    <form action="" class="form-horizontal">
+        <div class="form-group">
+            <label for="email" class="col-md-3 control-label">Email : </label>
+            <div class="col-md-9">
+                <!-----------------------اگه توی اینپوت می ذاشتم جواب نمی داد------------------------>
+                <input type="email" class="form-control" id="email">
             </div>
         </div>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a href="#collapse2" data-toggle="collapse" data-parent="#cloud">Open/Close</a>
-                </h4>
-            </div>
-            <div id="collapse2" class="panel-collapse collapse">
-                <div class="panel-body">panel-body</div>
-                <div class="panel-footer">panel-footer</div>
-            </div>
+        <div class="form-group">
+            <label for="password">password : </label>
+            <input type="password" class="form-control" id="password">
         </div>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a href="#collapse3" data-toggle="collapse" data-parent="#cloud">Open/Close</a>
-                </h4>
-            </div>
-            <div id="collapse3" class="panel-collapse collapse">
-                <div class="panel-body">panel-body</div>
-                <div class="panel-footer">panel-footer</div>
-            </div>
+        <div class="checkbox">
+            <label for="">
+                <input type="checkbox">
+                remember me
+            </label>
         </div>
-    </div>
+        <button type="submit" class="btn btn-success">send</button>
+    </form>
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="{{ url_for("static",filename= "js/jquery.min.js") }}"></script>
