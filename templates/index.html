@@ -20,91 +20,40 @@
 </head>
 <body>
 <div class="container">
-    <!---------------------------------- برای مدال ها و تولتیپ ها بایذ دوتا چیزاضافه کنی-------------------------------------->
-    <button class="btn btn-info btn-lg" data-toggle="modal" data-target="#modal">Open Modal</button>
-    <div id="modal" class="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title">Modal Header</h4>
+    <div id="mycarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="{{ url_for("static", filename="images/1.jpg") }}" alt="">
             </div>
-            <div class="modal-body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, laboriosam totam. Beatae distinctio,
-                    ipsa magnam nemo quis saepe voluptatum. Eligendi explicabo mollitia reiciendis temporibus vero. Eos
-                    non repellat tempora voluptas.</p>
+            <div class="item ">
+                <img src="{{ url_for("static", filename="images/2.jpg") }}" alt="">
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+            <div class="item">
+                <img src="{{ url_for("static", filename="images/3.jpg") }}" alt="">
             </div>
         </div>
     </div>
-    <!---------------------------Effect------------------------------->
+    <!------------------------------------------------------------------------>
     <br>
     <br>
-    <button class="btn btn-info btn-lg" data-toggle="modal" data-target="#modal1">Open Modal</button>
-    <div id="modal1" class="modal fade">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title">Modal Header</h4>
+    <div id="mycarousel1" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#mycarousel1" data-slide-to="0" class="active"></li>
+            <li data-target="#mycarousel1" data-slide-to="1"></li>
+            <li data-target="#mycarousel1" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="{{ url_for("static", filename="images/1.jpg") }}" alt="">
             </div>
-            <div class="modal-body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, laboriosam totam. Beatae distinctio,
-                    ipsa magnam nemo quis saepe voluptatum. Eligendi explicabo mollitia reiciendis temporibus vero. Eos
-                    non repellat tempora voluptas.</p>
+            <div class="item ">
+                <img src="{{ url_for("static", filename="images/2.jpg") }}" alt="">
             </div>
-            <div class="modal-footer">  <!-- dismiss با data-toggle یکی هست--->
-                <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+            <div class="item">
+                <img src="{{ url_for("static", filename="images/3.jpg") }}" alt="">
             </div>
         </div>
     </div>
-    <!-----------------چجوری همه عرض مانیتور را نگیرد؟----------------->
-    <br>
-    <br>
-    <button class="btn btn-info btn-lg" data-toggle="modal" data-target="#modal2">Open Modal</button>
-        <div id="modal2" class="modal fade">
-            <!---------------------------------------------------------------------------->
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title">Modal Header</h4>
-                    </div>
-                    <div class="modal-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, laboriosam totam. Beatae
-                            distinctio,
-                            ipsa magnam nemo quis saepe voluptatum. Eligendi explicabo mollitia reiciendis temporibus
-                            vero. Eos
-                            non repellat tempora voluptas.</p>
-                    </div>
-                    <div class="modal-footer">  <!-- dismiss با data-toggle یکی هست--->
-                        <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!---------------------------------------------------------------------------->
-    <br>
-    <br>
-    <button class="btn btn-info btn-lg" data-toggle="modal" data-target="#modal3">Open Modal</button>
-        <div id="modal3" class="modal fade">
-            <!---------------------------------------------------------------------------->
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title">Modal Header</h4>
-                    </div>
-                    <div class="modal-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, laboriosam totam. Beatae
-                            distinctio,
-                            ipsa magnam nemo quis saepe voluptatum. Eligendi explicabo mollitia reiciendis temporibus
-                            vero. Eos
-                            non repellat tempora voluptas.</p>
-                    </div>
-                    <div class="modal-footer">  <!-- dismiss با data-toggle یکی هست--->
-                        <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!---------------------------------------------------------------------------->
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="{{ url_for("static",filename= "js/jquery.min.js") }}"></script>
