@@ -20,87 +20,61 @@
 </head>
 <body>
 <div class="container">
-    <form action="">
-        <div class="form-group">
-            <label for="email">Email : </label>
-            <input type="email" class="form-control" id="email">
-        </div>
-        <div class="form-group">
-            <label for="password">password : </label>
-            <input type="password" class="form-control" id="password">
-        </div>
-        <div class="checkbox">
-            <label for="">
-                <input type="checkbox">
-                remember me
-            </label>
-        </div>
-    </form>
-    <!---------------------------------------------------------------------->
-    <br>
-    <h1>Form2</h1>
-    <form action="" class="form-inline">
-        <div class="form-group">
-            <label for="email">Email : </label>
-            <input type="email" class="form-control" id="email">
-        </div>
-        <div class="form-group">
-            <label for="password">password : </label>
-            <input type="password" class="form-control" id="password">
-        </div>
-        <div class="checkbox">
-            <label for="">
-                <input type="checkbox">
-                remember me
-            </label>
-        </div>
-        <button type="submit" class="btn btn-success">send</button>
-    </form>
-    <!-------------------------------فرم را بزرگ تر می کنی-------------------------------->
-    <br>
-    <br>
-    <h1>Form3</h1>
-    <form action="" class="form-horizontal">
-        <div class="form-group">
-            <label for="email">Email : </label>
-            <input type="email" class="form-control" id="email">
-        </div>
-        <div class="form-group">
-            <label for="password">password : </label>
-            <input type="password" class="form-control" id="password">
-        </div>
-        <div class="checkbox">
-            <label for="">
-                <input type="checkbox">
-                remember me
-            </label>
-        </div>
-        <button type="submit" class="btn btn-success">send</button>
-    </form>
-    <!-----------------------------------می خوام فرم ها کنار هم باشند-------------------------------------------->
-    <br>
-    <br>
-    <h1>Form4</h1>
-    <form action="" class="form-horizontal">
-        <div class="form-group">
-            <label for="email" class="col-md-3 control-label">Email : </label>
-            <div class="col-md-9">
-                <!-----------------------اگه توی اینپوت می ذاشتم جواب نمی داد------------------------>
-                <input type="email" class="form-control" id="email">
-            </div>
-        </div>
-        <div class="form-group">
-            <label for="password">password : </label>
-            <input type="password" class="form-control" id="password">
-        </div>
-        <div class="checkbox">
-            <label for="">
-                <input type="checkbox">
-                remember me
-            </label>
-        </div>
-        <button type="submit" class="btn btn-success">send</button>
-    </form>
+    <div class="form-group">
+        <label for="comment">comment</label>
+        <textarea name="" id="comment" class="form-control" cols="30" rows="10"></textarea>
+    </div>
+    <div class="checkbox">
+        <label for="harchi_doos_dari">
+            <input type="checkbox" id="harchi_doos_dari">
+            option 1
+        </label>
+    </div>
+    <div class="checkbox-inline">
+        <label for="set2">
+            <input type="checkbox" class="checkbox" id="set2">
+            option 2
+        </label>
+    </div>
+    <div class="checkbox-inline">
+        <label for="set3">
+            <input type="checkbox" class="checkbox" id="set3">
+            option 2
+        </label>
+    </div>
+    <!-- ------------------------------حالا برای رادیو باتون ها چی ؟ ؟ ؟ ؟ ------------------------------------------ -->
+    <div class="radio">
+        <label for="r1">
+            <input type="radio" class="radio" id="r1" name="faghat_yeki">
+            radio 1
+        </label>
+    </div>
+    <div class="radio">
+        <label for="r2">
+            <input type="radio" class="radio" id="r2" name="faghat_yeki">
+            radio 1
+        </label>
+    </div>
+    <!-- --------------------------SELECT BOX------------------------------------------------------- -->
+    <div class="form-group">
+        <label for="select1">seldct list</label>
+        <select name="" id="select1" class="form-control">
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+        </select>
+    </div>
+
+
+
+
+    <!-- -------------------مثالی که برای فلسک من جواب نمی ده----------------------->
+    <div class="form-group has-success has-feedback">
+        <label for="asd">asd</label>
+        <input type="text" class="form-control" id="asd">
+        <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+    </div>
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="{{ url_for("static",filename= "js/jquery.min.js") }}"></script>
