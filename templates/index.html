@@ -20,21 +20,95 @@
 </head>
 <body>
 <div class="container">
-    <!--------------------- حالا اگه بخوام راست یا چپ یا پایین نشونش بده چی؟------------------------>
-    <a href="#" data-toggle="tooltip" data-placement="top" title="how are you?">top</a>
-    <a href="#" data-toggle="tooltip" data-placement="left" title="how are you?">left</a>
-    <a href="#" data-toggle="tooltip" data-placement="right" title="how are you?">right</a>
-    <a href="#" data-toggle="tooltip" data-placement="bottom" title="how are you?">bottom</a>
+    <!---------------------------------- برای مدال ها و تولتیپ ها بایذ دوتا چیزاضافه کنی-------------------------------------->
+    <button class="btn btn-info btn-lg" data-toggle="modal" data-target="#modal">Open Modal</button>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Modal Header</h4>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, laboriosam totam. Beatae distinctio,
+                    ipsa magnam nemo quis saepe voluptatum. Eligendi explicabo mollitia reiciendis temporibus vero. Eos
+                    non repellat tempora voluptas.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+            </div>
+        </div>
+    </div>
+    <!---------------------------Effect------------------------------->
+    <br>
+    <br>
+    <button class="btn btn-info btn-lg" data-toggle="modal" data-target="#modal1">Open Modal</button>
+    <div id="modal1" class="modal fade">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Modal Header</h4>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, laboriosam totam. Beatae distinctio,
+                    ipsa magnam nemo quis saepe voluptatum. Eligendi explicabo mollitia reiciendis temporibus vero. Eos
+                    non repellat tempora voluptas.</p>
+            </div>
+            <div class="modal-footer">  <!-- dismiss با data-toggle یکی هست--->
+                <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+            </div>
+        </div>
+    </div>
+    <!-----------------چجوری همه عرض مانیتور را نگیرد؟----------------->
+    <br>
+    <br>
+    <button class="btn btn-info btn-lg" data-toggle="modal" data-target="#modal2">Open Modal</button>
+        <div id="modal2" class="modal fade">
+            <!---------------------------------------------------------------------------->
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Modal Header</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, laboriosam totam. Beatae
+                            distinctio,
+                            ipsa magnam nemo quis saepe voluptatum. Eligendi explicabo mollitia reiciendis temporibus
+                            vero. Eos
+                            non repellat tempora voluptas.</p>
+                    </div>
+                    <div class="modal-footer">  <!-- dismiss با data-toggle یکی هست--->
+                        <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---------------------------------------------------------------------------->
+    <br>
+    <br>
+    <button class="btn btn-info btn-lg" data-toggle="modal" data-target="#modal3">Open Modal</button>
+        <div id="modal3" class="modal fade">
+            <!---------------------------------------------------------------------------->
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Modal Header</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, laboriosam totam. Beatae
+                            distinctio,
+                            ipsa magnam nemo quis saepe voluptatum. Eligendi explicabo mollitia reiciendis temporibus
+                            vero. Eos
+                            non repellat tempora voluptas.</p>
+                    </div>
+                    <div class="modal-footer">  <!-- dismiss با data-toggle یکی هست--->
+                        <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---------------------------------------------------------------------------->
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="{{ url_for("static",filename= "js/jquery.min.js") }}"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="{{ url_for("static",filename= "js/bootstrap.js") }}"></script>
-<!--------------------------این جا توجه شود اگه اینجا فعال نشه کار نمی کنه----------------------------->
-<script>
-    $(document).ready(function () {
-        $('[data-toggle="tooltip"]').tooltip();
-    });
-</script>
 </body>
 </html>
